@@ -47,3 +47,10 @@ La commande **docker ps** affiche des informations relatives aux conteneurs pré
 L'interface graphique de Docker Desktop permet de s'affranchir des commandes Docker pour observer les informations relatives aux conteneurs créés. L'onglet **Containers** permet d'afficher l'ensemble des conteneurs présents sur votre poste de travail :
 
 ![docker desktop containers](./img/docker-desktop-containers.png)
+
+## 3. Arrêt du conteneur
+
+- Pour arrêter le conteneur, exécutez la commande `docker stop {ID}` en remplaçant **{ID}** par l'ID du conteneur que vous avez créé
+- Exécutez la commande `docker ps` et vérifiez que le conteneur que vous venez de supprimer n'est plus listé. 
+
+![docker stop](./img/docker-stop.png)
